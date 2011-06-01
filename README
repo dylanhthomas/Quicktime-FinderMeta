@@ -1,0 +1,29 @@
+QuickTime-FinderMeta
+
+A small mac app that takes the Quicktime attributes accessible in the Mac Finder's "Get Info" function and put it into the Spotlight comments, making it searchable and sortable.
+
+Contents:
+
+QT-Timecode-Dimension.app - The application
+
+QT-Timecode-Dimension.workflow - The Automator workflow that the application is made from.  If you want to make changes, you can open this file in automator and run as a workflow, or re-export as an application.
+
+App Instructions:
+
+1 - Download the zip file by clicking the "Downloads" button and clicking on "Zip File'
+
+2 - Unzip the file.
+
+3 - Launch the app by double-clicking on it.
+
+4 - Select a folder containing QuickTime files that you want to process.
+
+5 - Look a the folder containing the files, they should have the video dimensions and duration as Spotlight comments.  You can now sort by video dimension.
+
+
+Note:
+
+In order to see the Spotlight Comments, you must be in "List View", and check the "Comments" option in "View Options"
+
+This app will overwrite any existing Spotlight comments, in order to be useful as a sorting device.
+
